@@ -76,7 +76,7 @@ Characters that can precede each key:				*i_CTRL-F*
 !	When a '!' precedes the key, Vim will not insert the key but will
 	instead reindent the current line.  This allows you to define a
 	command key for reindenting the current line.  CTRL-F is the default
-	key for this.  Be careful that you define CTRL-I for this because CTRL-I
+	key for this.  Be careful if you define CTRL-I for this because CTRL-I
 	is the ASCII code for <Tab>.
 *	When a '*' precedes the key, Vim will reindent the line before
 	inserting the key.  If 'cinkeys' contains "*<Return>", Vim reindents
